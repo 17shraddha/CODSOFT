@@ -1,0 +1,511 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.separator{
+    width: 100%;
+    height: 2px;
+    background-color: #2607f3e3;
+    margin: 30px 0 20px;
+}
+ .overview .content1 .text1 .fullstop{
+    color: rgb(165, 50, 50);
+}
+button{
+    cursor: pointer;
+    border: 2px solid white;
+    background-color:rgb(20, 171, 153);
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    font-weight: 700;
+    letter-spacing: 0.3ch;
+    font-size: 0.75rem;
+}
+button:hover{
+    background-color: transparent;
+    color: black;
+   
+}
+ .icon{
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem 2rem;
+
+}
+.nav-icon{
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size:13px ;
+    justify-content: space-around;
+    flex-grow: 0;
+} 
+  .nav-bottom ul  {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    height: auto;
+    background-color: rgb(0, 140, 255);
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(16, 14, 14);
+}
+  .nav-search{
+    display: flex;
+    align-items:center;
+    background-color: blue;
+    color:white;
+    padding: 1rem 2rem;;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+.nav-search-input {
+   margin:  0;
+  color:white;
+  background-color:blue;
+  border: 0;
+  margin-left: 7px;
+
+}
+.nav-search-input ::placeholder{
+    color: white;
+}
+.home{
+    background-image:url(image/home1.png);
+    min-height: 90vh;
+    display: flex; 
+    align-items: center;
+    color: var(--white-color)
+} 
+ .content{
+    gap: 3px;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5rem;
+}
+.home .content .arrow{
+    color: red;
+    gap: 3px;
+}
+.home-nav ul , .home-nav a{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 8px 20px;
+    background-color:white;
+    text-decoration: none;
+    list-style: none;
+}
+.overview{
+    padding: 3rem 15vh;
+   
+}
+.overview .content1{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    padding: 50px;
+}
+.overview .content1 .text1{
+    width: 40%;
+    flex-shrink: 0;
+    
+    box-sizing: border-box;
+}
+.overview .content1 .text1 h3{
+    line-height: 50px;
+    font-size: 2rem;
+}
+.overview .content1 .text1 p{
+    margin: 0;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.overview .content1 .text1 h4{
+    line-height: 1.5rem;
+}
+.overview .content1 .image-container{
+    
+    width: 50%;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.overview .content1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 2s ease-in-out;
+}
+.overview .content1 img:hover{
+    transform: scale(1.5);
+}
+.Treatment{
+    padding: 1.7rem 15vh;
+}
+ .Treatment .content2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} 
+.Treatment .content2 .text2 h3{
+    font-size: 2rem;
+}
+ /*
+.Treatment .content2 .text2{
+    width: 50%;
+    flex-shrink: 0;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+.Treatment .content2 .text2 h3{
+    font-size: 2rem;
+}
+.Treatment .content2 .text2 p{
+    font-weight: 400;
+    line-height: 2rem;
+} */
+.Treatment .content2 .text2 H4{
+    line-height: 1.5rem;
+    
+}
+/* .Treatment .content2 .text2 ul .icon{
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 50%;
+} */
+.form{
+    margin-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: 3px solid #1b6489;
+    padding: 0.75rem 1.5rem;
+    border-radius:5px ;
+    
+
+}
+.form-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+}
+/* .form h2,p{
+    text-align: center;
+} */
+.form .input{
+    width: 100%;
+    text-align: center;
+    box-shadow: #1b6489;
+    justify-content: stretch;
+
+}.Treatment .form {
+    width: 40%;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  
+}
+.preparation{
+    padding: 2rem 15vh;
+}
+.preparation .content3{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.preparation .content3 .text3{
+    width: 60%;
+    flex-shrink: 0;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+.preparation .content3 .text3 h3{
+    font-size: 2rem;
+}
+.preparation .content3 .text3 p{
+    font-weight: 400;
+    line-height: 2rem;
+}
+.preparation .content3 .text3 H4{
+    line-height: 1.5rem;
+    
+}
+
+.about-treatment{
+    padding: 2rem 15vh;
+}
+.about-treatment .content4{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.about-treatment .content4 .text4{
+    width: 60%;
+    flex-shrink: 0;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+.about-treatment .content4 .text3 h4 h3{
+    font-size: 2rem;
+}
+.about-treatment .content4 .text4 p{
+    font-weight: 400;
+    line-height: 2rem;
+}
+.about-treatment .content4 .text4 H4 h3{
+    line-height: 1.5rem;
+    
+}
+li::marker {
+    color: #1e90ff;
+    font-size: 1.5rem;
+    font-weight: 500;
+  
+    list-style-type: circle;
+  }
+.post-treatment{
+    padding: 2rem 15vh;
+}
+.post-treatment .content5{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.post-treatment .content5 .text5{
+    width: 60%;
+    flex-shrink: 0;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+.post-treatment .content5 .text5 h3{
+    font-size: 2rem;
+}
+.post-treatment .content5 .text5 p{
+    font-weight: 400;
+    line-height: 2rem;
+}
+.post-treatment .content5 .text5 H4 h3{
+    line-height: 1.5rem;
+    
+}
+.recovery-treatment{
+    padding: 2rem 15vh;
+}
+.recovery-treatment .content6{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.recovery-treatment .content6 .text6{
+    width: 60%;
+    flex-shrink: 0;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+.recovery-treatment .content6 .text6 h3{
+    font-size: 2rem;
+}
+.recovery-treatment .content6 .text6 p{
+    font-weight: 400;
+    line-height: 2rem;
+}
+.recovery-treatment .content6 .text6 H4{
+    line-height: 1.5rem;
+    
+}
+.FAQs {
+    padding: 2rem 15vh;
+}
+
+.FAQs ul .question1{
+    padding: 2rem 15vh;
+}
+ .question1 li{
+    list-style: none;
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: aquamarine;
+    box-shadow: 6px 6px 10px -1px;
+ }
+ .question1 li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 500px;
+    cursor: pointer;
+ }
+ label::before{
+    content: "+";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+ }
+
+ input[type="radio"]{
+    display: none;
+ }
+
+.question1 .content{
+    color:black;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.question1 input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.question1 input[type="radio"]:checked + label::before{
+    content: '-';
+}
+.Stories{
+    padding: 2rem 15vh;
+    background-color: rgb(185, 149, 155);
+}
+.Stories .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+  
+}
+.Stories .item{
+    border-radius: 9px;
+    background-color: rgb(233, 240, 238);
+    box-shadow: 6px 6px 10px -1px;
+    list-style: 5px;
+}
+.desc{
+    line-height: 25px;
+}
+
+.Hospital{
+    padding: 2rem 15vh;
+    background-color: white
+}
+.Hospital img{
+    height: 9rem;
+    width: 5rem;
+}
+.Hospital .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+ .note{
+    padding: 2rem 20vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+footer{
+    background-color: rgb(64, 137, 221);
+   
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:700;
+    padding: 3rem;
+    line-height: 3rem;
+    height: 10rem;
+}
+
+
+.footer-list-container{
+    padding: 2rem 15vh;
+    background-color: #39768a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    color: white;
+    height: 70%;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footer-list-container p{
+    color:white;
+    font-size: 1rem;
+}
+footer a{
+    color: white;
+    line-height: 2rem;
+}
+ .copyright{
+    padding: 1rem 15vh;
+    line-height: 5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.footer3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 1.2rem;
+}
+.footer3 .footer-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    width: 33%;
+    font-size: 22px;
+}
+.footer3 .social-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    color: chocolate;
+}
+.social-link .social{
+    color: darkblue;
+}
